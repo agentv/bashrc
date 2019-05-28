@@ -1,6 +1,6 @@
 set -o vi
 
-alias lf="ls -CF"
+alias lf="ls -CFA"
 alias l="ls -al"
 alias installme="cp ./bashrc ~/.bashrc"
 
