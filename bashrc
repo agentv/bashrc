@@ -6,8 +6,8 @@ alias installme="cp ./bashrc ~/.bashrc"
 
 # specific to Mac OS
 
-#alias sizels="du -h"
-#alias fsizels="find . -type f -print0 | xargs -0 stat -f'%z' | awk '{b+=$1} END {print b}'"
+#alias sls="du -h"
+#alias fsls="find . -type f -print0 | xargs -0 stat -f'%z' | awk '{b+=$1} END {print b}'" # not Mac tested yet
 
 # deprecated - now just use Cmd-Shft-dot
 #alias showhidden="defaults write com.apple.finder AppleShowAllFiles TRUE"
