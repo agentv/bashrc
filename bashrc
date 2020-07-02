@@ -2,7 +2,8 @@ set -o vi
 
 alias lf="ls -CFA"
 alias l="ls -al"
-alias sls="du -h"
+alias sls="du -h"alias szls="du -ah . | sort -rh | head -20"
+alias szls="du -ah . | sort -rh | head -20"
 
 alias installme="cp ./bashrc ~/.bashrc"
 
