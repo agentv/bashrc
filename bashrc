@@ -5,6 +5,9 @@ alias l="ls -al"
 alias sls="du -h"alias szls="du -ah . | sort -rh | head -20"
 alias szls="du -ah . | sort -rh | head -20"
 
+alias checklisteners="netstat -an | grep LISTEN"
+alias checkport="nestat -an | grep $1"
+
 alias installme="cp ./bashrc ~/.bashrc"
 
 # specific to Mac OS
