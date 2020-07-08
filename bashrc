@@ -7,6 +7,7 @@ alias szls="du -ah . | sort -rh | head -20"
 
 alias checklisteners="netstat -an | grep LISTEN"
 alias checkport="nestat -an | grep $1"
+#alias win.checklisteners='netstat -ab | find /1 "listening"'
 
 alias installme="cp ./bashrc ~/.bashrc"
 
